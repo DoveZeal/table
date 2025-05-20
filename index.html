@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ASSIGNMENT</title>
+	<style type="text/css">
+		body{
+			/*background-image: url(pic1.jpeg), url(pic2.jpeg);
+			background-repeat: no-repeat, no-repeat;
+			background-position: left center, right center;
+			background-size: contain;*/
+			margin: 0;
+			font-style: italic;
+			background: url(pic1.jpeg) no-repeat center center;
+			color: white;
+/*			width: 180%;*/
+			
+
+		}
+		.container{
+			position: relative;
+			padding: 20px;
+			text-align: center;
+			width: 700px;
+			margin: auto;
+			z-index: 1;
+		}
+		.overlay-image{
+			background: url(pic2.jpeg) no-repeat center center;
+			background-size: contain;
+			width: 150px;
+			height: 400px;
+			position: absolute;
+			top: 100px;
+			left: 50%;
+			transform: translate(-50%);
+			z-index: 0;
+			opacity: 0.8;
+		}
+		.cap{
+			color: white;
+			font-size: 25px;
+			text-shadow: 1px 1px 2px black;
+			margin-bottom: 20px;
+		}
+		table{
+			width: 100%;
+			max-width: 900px;
+			margin: 0 auto;
+			border-collapse: collapse;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			position: relative;
+
+		}
+		th, td{
+			padding: 10px;
+/*			border: 1px solid #ccc;*/
+			text-align: center;
+		}
+		th{
+			background-color: rgba(0, 0, 255, 0.6);
+			color: white;
+		}
+		td:last-child{
+			color: red;
+			font-weight: bold;
+		}
+		/*/*.container{
+			border: 0;
+			width: 800px;
+			padding: 10px 10px;
+			margin: auto;
+			font-style: italic;
+			/*background-image: 
+			url(pic2.jpeg);
+			background-repeat: no-repeat;*/
+			/*color: white;
+			font-weight: bold;
+*/
+		}
+		/*.container{
+/*			background-image: url(pic2.jpeg);*/
+/*			background-repeat: no-repeat;*/
+		}
+		/*th{
+			background-color:blue;
+/*			width: 600px;*/
+			/*font-size: 1rem;
+			color: wh*/ite;
+		}***///*/
+		th, td{
+			padding: 8px;
+			text-align: left;
+		}
+		.size{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="overlay-image"></div>
+	<table>
+		<caption class="cap">OUR FAVORITE SONGS</caption>
+		<tr>
+			<th>SN</th>
+			<th>ARTIST</th>
+			<th>SONG TITLE</th>
+			<th>ALBUM</th>
+			<th>SIZE</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Eminem</td>
+			<td>Monster</td>
+			<td>Recovery</td>
+			<td class="size">3.9mb</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Olamide</td>
+			<td>Shakiti Bobo</td>
+			<td>YBNL</td>
+			<td class="size">4.9mb</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>2Face</td>
+			<td>For instance</td>
+			<td>African Queen</td>
+			<td class="size">3.5mb</td>
+			
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Iyaya</td>
+			<td>Kukere</td>
+			<td>Kukere Master</td>
+			<td class="size">5.5mb</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td>D'banji</td>
+			<td>Scape Goat</td>
+			<td>The Entertainer</td>
+			<td class="size">3.5mb</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
